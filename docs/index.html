@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>市场简报（自动更新）</title>
+<style>
+  :root{
+    --bg:#0c0f0d; --panel:#121613; --line:#22281f;
+    --ink:#eef0e9; --dim:#8b9385; --up:#5fb87a; --down:#d16b5a; --amber:#c9a24a;
+  }
+  *{box-sizing:border-box;}
+  body{ margin:0; background:var(--bg); color:var(--ink);
+    font-family:'IBM Plex Sans',Helvetica,Arial,"PingFang SC","Microsoft YaHei",sans-serif; line-height:1.5; }
+  .mono{ font-family:'IBM Plex Mono','SF Mono',Menlo,monospace; }
+  header{ padding:24px 32px 18px; border-bottom:1px solid var(--line); }
+  header h1{ margin:0; font-size:20px; font-weight:600; }
+  header .date{ color:var(--dim); font-size:12px; margin-top:4px; }
+  main{ max-width:960px; margin:0 auto; padding:24px 32px 50px; }
+  .ticker-row{ display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+    gap:1px; background:var(--line); }
+  .ticker{ background:var(--panel); padding:14px 16px; }
+  .ticker .label{ font-size:11px; color:var(--dim); }
+  .ticker .val{ font-family:'IBM Plex Mono',monospace; font-size:18px; margin-top:2px; }
+  .ticker .chg{ font-family:'IBM Plex Mono',monospace; font-size:12px; margin-top:2px; }
+  .up{ color:var(--up); } .down{ color:var(--down); }
+  .arrow{ font-size:11px; margin-right:2px; }
+  .note{ font-size:12px; color:var(--dim); margin-top:20px; }
+  footer{ text-align:center; color:var(--dim); font-size:12px; padding:20px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>市场简报 · 自动更新</h1>
+  <div class="date mono">最后更新：2026-09-20 06:19 UTC</div>
+</header>
+
+<main>
+  <div class="ticker-row">
+    <div class="ticker"><div class="label">标普500 ETF (SPY)</div><div class="val">761.69</div><div class="chg down"><span class="arrow">▼</span>-0.12%</div></div>
+<div class="ticker"><div class="label">纳斯达克100 ETF (QQQ)</div><div class="val">721.45</div><div class="chg up"><span class="arrow">▲</span>+0.63%</div></div>
+<div class="ticker"><div class="label">道琼斯 ETF (DIA)</div><div class="val">515.88</div><div class="chg down"><span class="arrow">▼</span>-0.48%</div></div>
+<div class="ticker"><div class="label">黄金 ETF (GLD)</div><div class="val">401.17</div><div class="chg up"><span class="arrow">▲</span>+0.71%</div></div>
+<div class="ticker"><div class="label">原油 ETF (USO)</div><div class="val">153.82</div><div class="chg down"><span class="arrow">▼</span>-0.96%</div></div>
+<div class="ticker"><div class="label">VIX 波动率 ETF (VIXY)</div><div class="val">17.09</div><div class="chg up"><span class="arrow">▲</span>+0.65%</div></div>
+<div class="ticker"><div class="label">20年期以上国债 ETF (TLT)</div><div class="val">81.25</div><div class="chg down"><span class="arrow">▼</span>-0.65%</div></div>
+  </div>
+  <div class="note">数据来自 Finnhub 免费接口，可能有数分钟延迟，非逐笔实时行情。每次 GitHub Actions 定时任务运行时自动刷新。</div>
+</main>
+
+<footer>由 GitHub Actions 自动构建并发布</footer>
+
+</body>
+</html>
