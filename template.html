@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>市场简报（自动更新）</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
 <style>
   :root{
     --bg:#0c0f0d; --panel:#121613; --line:#22281f;
@@ -15,16 +16,42 @@
   header{ padding:24px 32px 18px; border-bottom:1px solid var(--line); }
   header h1{ margin:0; font-size:20px; font-weight:600; }
   header .date{ color:var(--dim); font-size:12px; margin-top:4px; }
-  main{ max-width:960px; margin:0 auto; padding:24px 32px 50px; }
-  .ticker-row{ display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
-    gap:1px; background:var(--line); }
-  .ticker{ background:var(--panel); padding:14px 16px; }
+  main{ max-width:960px; margin:0 auto; padding:0 32px 50px; }
+  section{ padding:28px 0; border-bottom:1px solid var(--line); }
+  section:last-child{ border-bottom:none; }
+  section h2{ font-size:14px; font-weight:600; margin:0 0 14px; color:var(--amber); }
+
+  .ticker-row{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:1px; background:var(--line); margin-bottom:20px; }
+  .ticker{ background:var(--panel); padding:12px 14px; }
   .ticker .label{ font-size:11px; color:var(--dim); }
-  .ticker .val{ font-family:'IBM Plex Mono',monospace; font-size:18px; margin-top:2px; }
+  .ticker .val{ font-family:'IBM Plex Mono',monospace; font-size:17px; margin-top:2px; }
   .ticker .chg{ font-family:'IBM Plex Mono',monospace; font-size:12px; margin-top:2px; }
   .up{ color:var(--up); } .down{ color:var(--down); }
   .arrow{ font-size:11px; margin-right:2px; }
-  .note{ font-size:12px; color:var(--dim); margin-top:20px; }
+
+  .chart-wrap{ background:var(--panel); padding:14px 16px; margin-bottom:14px; }
+  .chart-head{ display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
+  .chart-head .cap{ font-size:12px; color:var(--dim); }
+  .tf-group{ display:flex; gap:4px; }
+  .tf-btn{ background:transparent; border:1px solid var(--line); color:var(--dim);
+    font-size:11px; padding:3px 9px; cursor:pointer; border-radius:2px; }
+  .tf-btn.active{ border-color:var(--amber); color:var(--amber); }
+  canvas{ max-height:180px; }
+
+  .heat-item{ padding:10px 14px; background:var(--panel); border-left:2px solid var(--amber); margin-bottom:8px; }
+  .heat-item a.name{ color:var(--ink); text-decoration:none; font-size:13px; font-weight:500;
+    display:flex; align-items:center; gap:6px; }
+  .heat-item a.name:hover{ color:var(--amber); }
+  .heat-item .src{ color:var(--dim); font-size:11px; margin-top:4px; }
+  .heat-item .go{ font-size:11px; color:var(--amber); }
+
+  table{ width:100%; border-collapse:collapse; font-size:13px; }
+  th{ text-align:left; color:var(--dim); font-weight:500; font-size:11px; padding:5px 8px; border-bottom:1px solid var(--line); }
+  td{ padding:7px 8px; border-bottom:1px solid var(--line); font-family:'IBM Plex Mono',monospace; }
+  td.name{ font-family:inherit; }
+  .empty-note{ color:var(--dim); font-size:12px; padding:10px; }
+  .note{ font-size:11px; color:var(--dim); margin-top:8px; }
   footer{ text-align:center; color:var(--dim); font-size:12px; padding:20px; }
 </style>
 </head>
@@ -36,13 +63,120 @@
 </header>
 
 <main>
-  <div class="ticker-row">
-    {{TICKER_ROWS}}
-  </div>
-  <div class="note">数据来自 Finnhub 免费接口，可能有数分钟延迟，非逐笔实时行情。每次 GitHub Actions 定时任务运行时自动刷新。</div>
+
+  <section>
+    <h2>指数 · 黄金 · 原油 · ETF</h2>
+    <div class="ticker-row">
+      {{TICKER_ROWS}}
+    </div>
+
+    <div class="chart-wrap">
+      <div class="chart-head">
+        <div class="cap">标普500指数 (^GSPC)</div>
+        <div class="tf-group" data-target="spx">
+          <button class="tf-btn" data-tf="1M">1M</button>
+          <button class="tf-btn active" data-tf="1Y">1Y</button>
+          <button class="tf-btn" data-tf="5Y">5Y</button>
+        </div>
+      </div>
+      <canvas id="spxChart"></canvas>
+    </div>
+    <div class="chart-wrap">
+      <div class="chart-head">
+        <div class="cap">黄金期货 (GC=F)</div>
+        <div class="tf-group" data-target="gold">
+          <button class="tf-btn" data-tf="1M">1M</button>
+          <button class="tf-btn active" data-tf="1Y">1Y</button>
+          <button class="tf-btn" data-tf="5Y">5Y</button>
+        </div>
+      </div>
+      <canvas id="goldChart"></canvas>
+    </div>
+    <div class="chart-wrap">
+      <div class="chart-head">
+        <div class="cap">WTI原油期货 (CL=F)</div>
+        <div class="tf-group" data-target="oil">
+          <button class="tf-btn" data-tf="1M">1M</button>
+          <button class="tf-btn active" data-tf="1Y">1Y</button>
+          <button class="tf-btn" data-tf="5Y">5Y</button>
+        </div>
+      </div>
+      <canvas id="oilChart"></canvas>
+    </div>
+    <div class="note">实时报价与历史图表均来自 Yahoo Finance，可能有数分钟延迟。</div>
+  </section>
+
+  <section>
+    <h2>固定收益</h2>
+    <div class="ticker-row">
+      {{FIXED_INCOME}}
+    </div>
+    <div class="note">数据来自美联储 FRED，每日更新1次。</div>
+  </section>
+
+  <section>
+    <h2>热门话题</h2>
+    {{HEAT_TOPICS}}
+    <div class="note">标题直接来自新闻源 RSS（Yahoo Finance / MarketWatch / Investing.com），点击可跳转原文。</div>
+  </section>
+
+  <section>
+    <h2>近期 IPO</h2>
+    <table>
+      {{IPO_ROWS}}
+    </table>
+    <div class="note">数据来自 Financial Modeling Prep IPO 日历。</div>
+  </section>
+
 </main>
 
-<footer>由 GitHub Actions 自动构建并发布</footer>
+<footer>由 GitHub Actions 自动构建并发布 · 有疑问可以回到 Claude 对话里问我</footer>
+
+<script>
+const HISTORY = {{HISTORY_JSON}};
+
+const gridColor = '#22281f';
+const textColor = '#8b9385';
+const commonOpts = {
+  responsive:true, maintainAspectRatio:false,
+  plugins:{ legend:{ display:false } },
+  scales:{
+    x:{ grid:{ color:gridColor }, ticks:{ color:textColor, font:{size:10}, maxTicksLimit:6 } },
+    y:{ grid:{ color:gridColor }, ticks:{ color:textColor, font:{size:10} } }
+  },
+  elements:{ point:{ radius:0 }, line:{ tension:0.25, borderWidth:2 } }
+};
+const colors = { spx:'#c9a24a', gold:'#5fb87a', oil:'#d16b5a' };
+const charts = {};
+
+function buildChart(key, canvasId){
+  const series = (HISTORY[key] && HISTORY[key]["1Y"]) || { labels: [], data: [] };
+  charts[key] = new Chart(document.getElementById(canvasId), {
+    type:'line',
+    data:{ labels: series.labels, datasets:[{ data: series.data, borderColor:colors[key],
+      backgroundColor:colors[key]+'14', fill:true }] },
+    options: commonOpts
+  });
+}
+buildChart('spx','spxChart');
+buildChart('gold','goldChart');
+buildChart('oil','oilChart');
+
+document.querySelectorAll('.tf-group').forEach(group => {
+  const key = group.dataset.target;
+  group.querySelectorAll('.tf-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      group.querySelectorAll('.tf-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const tf = btn.dataset.tf;
+      const series = (HISTORY[key] && HISTORY[key][tf]) || { labels: [], data: [] };
+      charts[key].data.labels = series.labels;
+      charts[key].data.datasets[0].data = series.data;
+      charts[key].update();
+    });
+  });
+});
+</script>
 
 </body>
 </html>
