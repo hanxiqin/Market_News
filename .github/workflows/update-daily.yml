@@ -1,0 +1,53 @@
+name: Daily Full Refresh
+
+on:
+  schedule:
+    - cron: "0 13 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate daily data (history, fixed income, heat topics, IPOs)
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+        run: python generate_daily.py
+
+      - name: Fetch prices & build full page
+        run: python fetch_prices.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "market-bot"
+          git config user.email "market-bot@users.noreply.github.com"
+          git add docs/index.html data/daily.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Daily full refresh"
+          git push
+
+      - name: Send email notification
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "市场简报 - 每日完整更新"
+          to: ${{ secrets.EMAIL_TO }}
+          from: Market Briefing Bot
+          body: file://email_body.txt
