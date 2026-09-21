@@ -1,11 +1,9 @@
 {
-  "generated_at": "2026-09-20T07:16:38.609321+00:00",
+  "generated_at": "2026-09-21T18:25:59.849383+00:00",
   "history": {
     "spx": {
       "1M": {
         "labels": [
-          "2026-08-19",
-          "2026-08-20",
           "2026-08-21",
           "2026-08-24",
           "2026-08-25",
@@ -25,11 +23,10 @@
           "2026-09-15",
           "2026-09-16",
           "2026-09-17",
-          "2026-09-18"
+          "2026-09-18",
+          "2026-09-21"
         ],
         "data": [
-          7707.98,
-          7641.16,
           7674.37,
           7652.86,
           7677.28,
@@ -49,12 +46,12 @@
           7585.73,
           7551.81,
           7637.76,
-          7650.5
+          7650.5,
+          7768.46
         ]
       },
       "1Y": {
         "labels": [
-          "2025-09-15",
           "2025-09-22",
           "2025-09-29",
           "2025-10-06",
@@ -107,10 +104,9 @@
           "2026-08-31",
           "2026-09-07",
           "2026-09-14",
-          "2026-09-18"
+          "2026-09-21"
         ],
         "data": [
-          6664.36,
           6643.7,
           6715.79,
           6552.51,
@@ -163,7 +159,7 @@
           7718.6,
           7656.98,
           7650.5,
-          7650.5
+          7768.45
         ]
       },
       "5Y": {
@@ -228,7 +224,7 @@
           "2026-07-01",
           "2026-08-01",
           "2026-09-01",
-          "2026-09-18"
+          "2026-09-21"
         ],
         "data": [
           4605.38,
@@ -291,14 +287,13 @@
           7489.72,
           7686.14,
           7650.5,
-          7650.5
+          7768.46
         ]
       }
     },
     "gold": {
       "1M": {
         "labels": [
-          "2026-08-20",
           "2026-08-21",
           "2026-08-24",
           "2026-08-25",
@@ -318,10 +313,10 @@
           "2026-09-15",
           "2026-09-16",
           "2026-09-17",
-          "2026-09-18"
+          "2026-09-18",
+          "2026-09-21"
         ],
         "data": [
-          4571.4,
           4680.6,
           4697.8,
           4694.5,
@@ -341,7 +336,8 @@
           4332.8,
           4387.5,
           4399.7,
-          4424.9
+          4424.9,
+          4389.5
         ]
       },
       "1Y": {
@@ -398,7 +394,7 @@
           "2026-08-31",
           "2026-09-07",
           "2026-09-14",
-          "2026-09-18"
+          "2026-09-21"
         ],
         "data": [
           3809.0,
@@ -453,7 +449,7 @@
           4476.6,
           4408.9,
           4424.9,
-          4424.9
+          4389.5
         ]
       },
       "5Y": {
@@ -510,7 +506,7 @@
           "2026-07-01",
           "2026-08-01",
           "2026-09-01",
-          "2026-09-18"
+          "2026-09-21"
         ],
         "data": [
           1783.9,
@@ -565,14 +561,13 @@
           4107.0,
           4481.5,
           4424.9,
-          4424.9
+          4389.5
         ]
       }
     },
     "oil": {
       "1M": {
         "labels": [
-          "2026-08-20",
           "2026-08-21",
           "2026-08-24",
           "2026-08-25",
@@ -592,10 +587,10 @@
           "2026-09-15",
           "2026-09-16",
           "2026-09-17",
-          "2026-09-18"
+          "2026-09-18",
+          "2026-09-21"
         ],
         "data": [
-          87.83,
           87.06,
           85.01,
           82.36,
@@ -615,7 +610,8 @@
           105.83,
           102.43,
           101.91,
-          96.08
+          100.3,
+          92.21
         ]
       },
       "1Y": {
@@ -672,7 +668,7 @@
           "2026-08-31",
           "2026-09-07",
           "2026-09-14",
-          "2026-09-18"
+          "2026-09-21"
         ],
         "data": [
           65.72,
@@ -727,7 +723,7 @@
           91.48,
           100.05,
           100.3,
-          96.08
+          92.21
         ]
       },
       "5Y": {
@@ -784,7 +780,7 @@
           "2026-07-01",
           "2026-08-01",
           "2026-09-01",
-          "2026-09-18"
+          "2026-09-21"
         ],
         "data": [
           83.57,
@@ -839,7 +835,7 @@
           84.67,
           85.76,
           100.3,
-          96.08
+          92.21
         ]
       }
     }
@@ -853,29 +849,54 @@
   },
   "heat_topics": [
     {
-      "title": "Jim Cramer Says His Palantir Technologies Inc. (NASDAQ:PLTR) Price Target Is $250",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-palantir-technologies-230154955.html",
-      "source": "Yahoo Finance"
+      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
+      "source": "Federal Reserve"
     },
     {
-      "title": "NVIDIA Vs Intel Corporation (NASDAQ:INTC): Here’s The One Jim Cramer Likes",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-vs-intel-corporation-nasdaq-230352152.html",
-      "source": "Yahoo Finance"
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
+      "source": "Federal Reserve"
     },
     {
-      "title": "Here’s When Jim Cramer Thinks Costco Wholesale Corporation (NASDAQ:COST) Will Cut Prices",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-thinks-costco-wholesale-231228388.html",
-      "source": "Yahoo Finance"
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "source": "Federal Reserve"
     },
     {
-      "title": "It’s not a winner-take-all stock market. This hedge-fund manager favors three underdogs.",
-      "link": "https://www.marketwatch.com/story/its-not-a-winner-take-all-stock-market-this-hedge-fund-manager-favors-three-underdogs-a366ab6f?mod=mw_rss_topstories",
-      "source": "MarketWatch"
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
+      "source": "Federal Reserve"
     },
     {
-      "title": "Why is Bitcoin US Dollar stock climbing today?",
-      "link": "https://www.investing.com/news/cryptocurrency-news/why-is-bitcoin-us-dollar-stock-climbing-today-93CH-4907428",
-      "source": "Investing.com"
+      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Federal Reserve Board issues enforcement action with former employee of Banco Popular de Puerto Rico",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260827a.htm",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Federal Reserve Board announces approval of application by National Westminster Bank Plc",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260820a.htm",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+      "source": "Federal Reserve"
     }
   ],
   "ipos": []
