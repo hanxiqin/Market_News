@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T17:29:34.579864+00:00",
+  "generated_at": "2026-09-23T17:39:36.704402+00:00",
   "history": {
     "spx": {
       "1M": {
@@ -24,7 +24,7 @@
           "2026-09-17",
           "2026-09-18",
           "2026-09-21",
-          "2026-09-22"
+          "2026-09-23"
         ],
         "data": [
           7652.86,
@@ -47,7 +47,7 @@
           7637.76,
           7650.5,
           7764.7,
-          7765.52
+          7702.97
         ]
       },
       "1Y": {
@@ -105,7 +105,7 @@
           "2026-09-07",
           "2026-09-14",
           "2026-09-21",
-          "2026-09-22"
+          "2026-09-23"
         ],
         "data": [
           6643.7,
@@ -161,7 +161,7 @@
           7656.98,
           7650.5,
           7764.7,
-          7765.58
+          7702.97
         ]
       },
       "5Y": {
@@ -226,7 +226,7 @@
           "2026-07-01",
           "2026-08-01",
           "2026-09-01",
-          "2026-09-22"
+          "2026-09-23"
         ],
         "data": [
           4605.38,
@@ -288,8 +288,8 @@
           7499.36,
           7489.72,
           7686.14,
-          7650.5,
-          7765.58
+          7764.64,
+          7702.97
         ]
       }
     },
@@ -316,7 +316,8 @@
           "2026-09-17",
           "2026-09-18",
           "2026-09-21",
-          "2026-09-22"
+          "2026-09-22",
+          "2026-09-23"
         ],
         "data": [
           4697.8,
@@ -339,7 +340,8 @@
           4399.7,
           4424.9,
           4383.9,
-          4375.4
+          4376.4,
+          4318.0
         ]
       },
       "1Y": {
@@ -397,7 +399,7 @@
           "2026-09-07",
           "2026-09-14",
           "2026-09-21",
-          "2026-09-22"
+          "2026-09-23"
         ],
         "data": [
           3809.0,
@@ -452,8 +454,8 @@
           4476.6,
           4408.9,
           4424.9,
-          4383.9,
-          4375.4
+          4376.4,
+          4318.0
         ]
       },
       "5Y": {
@@ -510,7 +512,7 @@
           "2026-07-01",
           "2026-08-01",
           "2026-09-01",
-          "2026-09-22"
+          "2026-09-23"
         ],
         "data": [
           1783.9,
@@ -564,8 +566,8 @@
           4038.5,
           4107.0,
           4481.5,
-          4424.9,
-          4375.4
+          4376.4,
+          4318.0
         ]
       }
     },
@@ -592,7 +594,8 @@
           "2026-09-17",
           "2026-09-18",
           "2026-09-21",
-          "2026-09-22"
+          "2026-09-22",
+          "2026-09-23"
         ],
         "data": [
           85.01,
@@ -615,7 +618,8 @@
           101.91,
           100.3,
           95.78,
-          91.24
+          94.59,
+          91.52
         ]
       },
       "1Y": {
@@ -673,7 +677,7 @@
           "2026-09-07",
           "2026-09-14",
           "2026-09-21",
-          "2026-09-22"
+          "2026-09-23"
         ],
         "data": [
           65.72,
@@ -728,8 +732,8 @@
           91.48,
           100.05,
           100.3,
-          95.78,
-          91.24
+          94.59,
+          91.52
         ]
       },
       "5Y": {
@@ -786,7 +790,7 @@
           "2026-07-01",
           "2026-08-01",
           "2026-09-01",
-          "2026-09-22"
+          "2026-09-23"
         ],
         "data": [
           83.57,
@@ -840,28 +844,33 @@
           69.5,
           84.67,
           85.76,
-          100.3,
-          91.24
+          94.59,
+          91.52
         ]
       }
     }
   },
   "fixed_income": {
     "y2": 4.76,
-    "y10": 5.01,
-    "y30": 5.34,
+    "y10": 4.96,
+    "y30": 5.29,
     "fedfunds": 3.63,
     "cpi": 334.131
   },
   "heat_topics": [
     {
-      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
+      "title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
       "source": "Federal Reserve"
     },
     {
       "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
       "source": "Federal Reserve"
     },
     {
@@ -897,11 +906,6 @@
     {
       "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
       "source": "Federal Reserve"
     }
   ],
