@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T17:39:36.704402+00:00",
+  "generated_at": "2026-09-24T17:42:47.190990+00:00",
   "history": {
     "spx": {
       "1M": {
@@ -24,7 +24,8 @@
           "2026-09-17",
           "2026-09-18",
           "2026-09-21",
-          "2026-09-23"
+          "2026-09-23",
+          "2026-09-24"
         ],
         "data": [
           7652.86,
@@ -47,7 +48,8 @@
           7637.76,
           7650.5,
           7764.7,
-          7702.97
+          7706.03,
+          7700.31
         ]
       },
       "1Y": {
@@ -105,7 +107,7 @@
           "2026-09-07",
           "2026-09-14",
           "2026-09-21",
-          "2026-09-23"
+          "2026-09-24"
         ],
         "data": [
           6643.7,
@@ -160,8 +162,8 @@
           7718.6,
           7656.98,
           7650.5,
-          7764.7,
-          7702.97
+          7706.03,
+          7700.31
         ]
       },
       "5Y": {
@@ -226,7 +228,7 @@
           "2026-07-01",
           "2026-08-01",
           "2026-09-01",
-          "2026-09-23"
+          "2026-09-24"
         ],
         "data": [
           4605.38,
@@ -288,8 +290,8 @@
           7499.36,
           7489.72,
           7686.14,
-          7764.64,
-          7702.97
+          7706.03,
+          7700.19
         ]
       }
     },
@@ -317,7 +319,8 @@
           "2026-09-18",
           "2026-09-21",
           "2026-09-22",
-          "2026-09-23"
+          "2026-09-23",
+          "2026-09-24"
         ],
         "data": [
           4697.8,
@@ -341,7 +344,8 @@
           4424.9,
           4383.9,
           4376.4,
-          4318.0
+          4318.4,
+          4299.8
         ]
       },
       "1Y": {
@@ -399,7 +403,7 @@
           "2026-09-07",
           "2026-09-14",
           "2026-09-21",
-          "2026-09-23"
+          "2026-09-24"
         ],
         "data": [
           3809.0,
@@ -454,8 +458,8 @@
           4476.6,
           4408.9,
           4424.9,
-          4376.4,
-          4318.0
+          4318.4,
+          4299.8
         ]
       },
       "5Y": {
@@ -512,7 +516,7 @@
           "2026-07-01",
           "2026-08-01",
           "2026-09-01",
-          "2026-09-23"
+          "2026-09-24"
         ],
         "data": [
           1783.9,
@@ -566,8 +570,8 @@
           4038.5,
           4107.0,
           4481.5,
-          4376.4,
-          4318.0
+          4318.4,
+          4299.8
         ]
       }
     },
@@ -595,7 +599,8 @@
           "2026-09-18",
           "2026-09-21",
           "2026-09-22",
-          "2026-09-23"
+          "2026-09-23",
+          "2026-09-24"
         ],
         "data": [
           85.01,
@@ -619,7 +624,8 @@
           100.3,
           95.78,
           94.59,
-          91.52
+          92.16,
+          94.81
         ]
       },
       "1Y": {
@@ -677,7 +683,7 @@
           "2026-09-07",
           "2026-09-14",
           "2026-09-21",
-          "2026-09-23"
+          "2026-09-24"
         ],
         "data": [
           65.72,
@@ -732,8 +738,8 @@
           91.48,
           100.05,
           100.3,
-          94.59,
-          91.52
+          92.16,
+          94.81
         ]
       },
       "5Y": {
@@ -790,7 +796,7 @@
           "2026-07-01",
           "2026-08-01",
           "2026-09-01",
-          "2026-09-23"
+          "2026-09-24"
         ],
         "data": [
           83.57,
@@ -844,20 +850,25 @@
           69.5,
           84.67,
           85.76,
-          94.59,
-          91.52
+          92.16,
+          94.81
         ]
       }
     }
   },
   "fixed_income": {
-    "y2": 4.76,
+    "y2": 4.71,
     "y10": 4.96,
     "y30": 5.29,
     "fedfunds": 3.63,
     "cpi": 334.131
   },
   "heat_topics": [
+    {
+      "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm",
+      "source": "Federal Reserve"
+    },
     {
       "title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
@@ -901,11 +912,6 @@
     {
       "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820a.htm",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260820b.htm",
       "source": "Federal Reserve"
     }
   ],
