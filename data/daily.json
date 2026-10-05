@@ -1,12 +1,9 @@
 {
-  "generated_at": "2026-10-02T18:10:18.357240+00:00",
+  "generated_at": "2026-10-05T21:00:41.253435+00:00",
   "history": {
     "spx": {
       "1M": {
         "labels": [
-          "2026-09-02",
-          "2026-09-03",
-          "2026-09-04",
           "2026-09-08",
           "2026-09-09",
           "2026-09-10",
@@ -25,12 +22,10 @@
           "2026-09-29",
           "2026-09-30",
           "2026-10-01",
-          "2026-10-02"
+          "2026-10-02",
+          "2026-10-05"
         ],
         "data": [
-          7666.6,
-          7747.71,
-          7718.6,
           7673.52,
           7636.36,
           7591.7,
@@ -49,12 +44,12 @@
           7670.84,
           7651.54,
           7666.45,
-          7718.94
+          7722.72,
+          7773.95
         ]
       },
       "1Y": {
         "labels": [
-          "2025-09-29",
           "2025-10-06",
           "2025-10-13",
           "2025-10-20",
@@ -107,10 +102,9 @@
           "2026-09-14",
           "2026-09-21",
           "2026-09-28",
-          "2026-10-02"
+          "2026-10-05"
         ],
         "data": [
-          6715.79,
           6552.51,
           6664.01,
           6791.69,
@@ -162,8 +156,8 @@
           7656.98,
           7650.5,
           7743.41,
-          7666.45,
-          7718.94
+          7722.72,
+          7773.95
         ]
       },
       "5Y": {
@@ -228,7 +222,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-10-02"
+          "2026-10-05"
         ],
         "data": [
           4567.0,
@@ -290,17 +284,14 @@
           7489.72,
           7686.14,
           7651.54,
-          7666.45,
-          7718.94
+          7722.72,
+          7773.95
         ]
       }
     },
     "gold": {
       "1M": {
         "labels": [
-          "2026-09-02",
-          "2026-09-03",
-          "2026-09-04",
           "2026-09-08",
           "2026-09-09",
           "2026-09-10",
@@ -319,12 +310,10 @@
           "2026-09-29",
           "2026-09-30",
           "2026-10-01",
-          "2026-10-02"
+          "2026-10-02",
+          "2026-10-05"
         ],
         "data": [
-          4414.6,
-          4539.9,
-          4476.6,
           4439.0,
           4460.7,
           4407.3,
@@ -343,12 +332,12 @@
           4179.7,
           4186.7,
           4202.3,
-          4165.7
+          4162.3,
+          4169.7
         ]
       },
       "1Y": {
         "labels": [
-          "2025-09-29",
           "2025-10-06",
           "2025-10-13",
           "2025-10-20",
@@ -401,10 +390,9 @@
           "2026-09-14",
           "2026-09-21",
           "2026-09-28",
-          "2026-10-02"
+          "2026-10-05"
         ],
         "data": [
-          3908.9,
           4000.4,
           4213.3,
           4137.8,
@@ -456,8 +444,8 @@
           4408.9,
           4424.9,
           4321.2,
-          4202.3,
-          4165.7
+          4162.3,
+          4169.7
         ]
       },
       "5Y": {
@@ -514,7 +502,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-10-02"
+          "2026-10-05"
         ],
         "data": [
           1773.6,
@@ -568,17 +556,14 @@
           4107.0,
           4481.5,
           4186.7,
-          4202.3,
-          4165.7
+          4162.3,
+          4169.7
         ]
       }
     },
     "oil": {
       "1M": {
         "labels": [
-          "2026-09-02",
-          "2026-09-03",
-          "2026-09-04",
           "2026-09-08",
           "2026-09-09",
           "2026-09-10",
@@ -597,12 +582,10 @@
           "2026-09-29",
           "2026-09-30",
           "2026-10-01",
-          "2026-10-02"
+          "2026-10-02",
+          "2026-10-05"
         ],
         "data": [
-          91.01,
-          91.3,
-          91.48,
           93.03,
           96.05,
           102.48,
@@ -621,12 +604,12 @@
           89.38,
           90.42,
           92.87,
-          91.52
+          91.11,
+          89.23
         ]
       },
       "1Y": {
         "labels": [
-          "2025-09-29",
           "2025-10-06",
           "2025-10-13",
           "2025-10-20",
@@ -679,10 +662,9 @@
           "2026-09-14",
           "2026-09-21",
           "2026-09-28",
-          "2026-10-02"
+          "2026-10-05"
         ],
         "data": [
-          60.88,
           58.9,
           57.54,
           61.5,
@@ -734,8 +716,8 @@
           100.05,
           100.3,
           92.41,
-          92.87,
-          91.52
+          91.11,
+          89.23
         ]
       },
       "5Y": {
@@ -792,7 +774,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-10-02"
+          "2026-10-05"
         ],
         "data": [
           66.18,
@@ -846,20 +828,35 @@
           84.67,
           85.76,
           90.42,
-          92.87,
-          91.52
+          91.11,
+          89.23
         ]
       }
     }
   },
   "fixed_income": {
-    "y2": 4.88,
-    "y10": 5.29,
-    "y30": 5.64,
+    "y2": 4.83,
+    "y10": 5.28,
+    "y30": 5.63,
     "fedfunds": 3.75,
     "cpi": 334.131
   },
   "heat_topics": [
+    {
+      "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+      "source": "Federal Reserve"
+    },
     {
       "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
@@ -891,23 +888,8 @@
       "source": "Federal Reserve"
     },
     {
-      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
-      "source": "Federal Reserve"
-    },
-    {
       "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "source": "Federal Reserve"
     }
   ],
