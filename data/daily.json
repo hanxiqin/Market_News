@@ -1,10 +1,9 @@
 {
-  "generated_at": "2026-10-08T19:06:55.264680+00:00",
+  "generated_at": "2026-10-09T18:37:20.154547+00:00",
   "history": {
     "spx": {
       "1M": {
         "labels": [
-          "2026-09-08",
           "2026-09-09",
           "2026-09-10",
           "2026-09-11",
@@ -26,10 +25,10 @@
           "2026-10-05",
           "2026-10-06",
           "2026-10-07",
-          "2026-10-08"
+          "2026-10-08",
+          "2026-10-09"
         ],
         "data": [
-          7673.52,
           7636.36,
           7591.7,
           7656.98,
@@ -51,7 +50,8 @@
           7773.95,
           7818.93,
           7801.77,
-          7753.79
+          7765.36,
+          7812.84
         ]
       },
       "1Y": {
@@ -109,7 +109,7 @@
           "2026-09-21",
           "2026-09-28",
           "2026-10-05",
-          "2026-10-08"
+          "2026-10-09"
         ],
         "data": [
           6552.51,
@@ -164,8 +164,8 @@
           7650.5,
           7743.41,
           7722.72,
-          7801.77,
-          7753.79
+          7765.36,
+          7812.84
         ]
       },
       "5Y": {
@@ -230,7 +230,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-10-08"
+          "2026-10-09"
         ],
         "data": [
           4567.0,
@@ -292,15 +292,14 @@
           7489.72,
           7686.14,
           7651.54,
-          7801.77,
-          7753.65
+          7765.36,
+          7812.84
         ]
       }
     },
     "gold": {
       "1M": {
         "labels": [
-          "2026-09-08",
           "2026-09-09",
           "2026-09-10",
           "2026-09-11",
@@ -322,10 +321,10 @@
           "2026-10-05",
           "2026-10-06",
           "2026-10-07",
-          "2026-10-08"
+          "2026-10-08",
+          "2026-10-09"
         ],
         "data": [
-          4439.0,
           4460.7,
           4407.3,
           4408.9,
@@ -347,7 +346,8 @@
           4156.8,
           4187.1,
           4140.7,
-          4152.0
+          4157.0,
+          4221.1
         ]
       },
       "1Y": {
@@ -405,7 +405,7 @@
           "2026-09-21",
           "2026-09-28",
           "2026-10-05",
-          "2026-10-08"
+          "2026-10-09"
         ],
         "data": [
           4000.4,
@@ -460,8 +460,8 @@
           4424.9,
           4321.2,
           4162.3,
-          4140.7,
-          4152.0
+          4157.0,
+          4221.1
         ]
       },
       "5Y": {
@@ -518,7 +518,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-10-08"
+          "2026-10-09"
         ],
         "data": [
           1773.6,
@@ -572,15 +572,14 @@
           4107.0,
           4481.5,
           4186.7,
-          4140.7,
-          4152.0
+          4157.0,
+          4221.1
         ]
       }
     },
     "oil": {
       "1M": {
         "labels": [
-          "2026-09-08",
           "2026-09-09",
           "2026-09-10",
           "2026-09-11",
@@ -602,10 +601,10 @@
           "2026-10-05",
           "2026-10-06",
           "2026-10-07",
-          "2026-10-08"
+          "2026-10-08",
+          "2026-10-09"
         ],
         "data": [
-          93.03,
           96.05,
           102.48,
           100.05,
@@ -627,7 +626,8 @@
           89.43,
           89.44,
           88.28,
-          91.38
+          91.49,
+          91.76
         ]
       },
       "1Y": {
@@ -685,7 +685,7 @@
           "2026-09-21",
           "2026-09-28",
           "2026-10-05",
-          "2026-10-08"
+          "2026-10-09"
         ],
         "data": [
           58.9,
@@ -740,8 +740,8 @@
           100.3,
           92.41,
           91.11,
-          88.28,
-          91.38
+          91.49,
+          91.76
         ]
       },
       "5Y": {
@@ -798,7 +798,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-10-08"
+          "2026-10-09"
         ],
         "data": [
           66.18,
@@ -852,20 +852,30 @@
           84.67,
           85.76,
           90.42,
-          88.28,
-          91.38
+          91.49,
+          91.76
         ]
       }
     }
   },
   "fixed_income": {
-    "y2": 4.79,
-    "y10": 5.27,
-    "y30": 5.64,
+    "y2": 4.77,
+    "y10": 5.28,
+    "y30": 5.67,
     "fedfunds": 3.75,
     "cpi": 334.131
   },
   "heat_topics": [
+    {
+      "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
+      "source": "Federal Reserve"
+    },
     {
       "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
@@ -904,16 +914,6 @@
     {
       "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
       "source": "Federal Reserve"
     }
   ],
