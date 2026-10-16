@@ -1,10 +1,9 @@
 {
-  "generated_at": "2026-10-15T17:33:38.236119+00:00",
+  "generated_at": "2026-10-16T17:08:58.740620+00:00",
   "history": {
     "spx": {
       "1M": {
         "labels": [
-          "2026-09-15",
           "2026-09-16",
           "2026-09-17",
           "2026-09-18",
@@ -26,10 +25,10 @@
           "2026-10-12",
           "2026-10-13",
           "2026-10-14",
-          "2026-10-15"
+          "2026-10-15",
+          "2026-10-16"
         ],
         "data": [
-          7585.73,
           7551.81,
           7637.76,
           7650.5,
@@ -51,7 +50,8 @@
           7807.24,
           7805.45,
           7718.94,
-          7732.21
+          7744.06,
+          7664.66
         ]
       },
       "1Y": {
@@ -109,7 +109,7 @@
           "2026-09-28",
           "2026-10-05",
           "2026-10-12",
-          "2026-10-15"
+          "2026-10-16"
         ],
         "data": [
           6664.01,
@@ -164,8 +164,8 @@
           7743.41,
           7722.72,
           7811.54,
-          7718.94,
-          7732.21
+          7744.06,
+          7664.66
         ]
       },
       "5Y": {
@@ -230,7 +230,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-10-15"
+          "2026-10-16"
         ],
         "data": [
           4567.0,
@@ -292,15 +292,14 @@
           7489.72,
           7686.14,
           7651.54,
-          7718.94,
-          7732.21
+          7744.06,
+          7664.66
         ]
       }
     },
     "gold": {
       "1M": {
         "labels": [
-          "2026-09-15",
           "2026-09-16",
           "2026-09-17",
           "2026-09-18",
@@ -322,10 +321,10 @@
           "2026-10-12",
           "2026-10-13",
           "2026-10-14",
-          "2026-10-15"
+          "2026-10-15",
+          "2026-10-16"
         ],
         "data": [
-          4332.8,
           4387.5,
           4399.7,
           4424.9,
@@ -347,7 +346,8 @@
           4190.6,
           4177.3,
           4107.9,
-          4171.8
+          4170.1,
+          4180.9
         ]
       },
       "1Y": {
@@ -405,7 +405,7 @@
           "2026-09-28",
           "2026-10-05",
           "2026-10-12",
-          "2026-10-15"
+          "2026-10-16"
         ],
         "data": [
           4213.3,
@@ -460,8 +460,8 @@
           4321.2,
           4162.3,
           4216.3,
-          4107.9,
-          4171.8
+          4170.1,
+          4180.9
         ]
       },
       "5Y": {
@@ -518,7 +518,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-10-15"
+          "2026-10-16"
         ],
         "data": [
           1773.6,
@@ -572,15 +572,14 @@
           4107.0,
           4481.5,
           4186.7,
-          4107.9,
-          4171.8
+          4170.1,
+          4180.9
         ]
       }
     },
     "oil": {
       "1M": {
         "labels": [
-          "2026-09-15",
           "2026-09-16",
           "2026-09-17",
           "2026-09-18",
@@ -602,10 +601,10 @@
           "2026-10-12",
           "2026-10-13",
           "2026-10-14",
-          "2026-10-15"
+          "2026-10-15",
+          "2026-10-16"
         ],
         "data": [
-          105.83,
           102.43,
           101.91,
           100.3,
@@ -627,7 +626,8 @@
           93.74,
           94.14,
           95.09,
-          96.55
+          97.97,
+          98.65
         ]
       },
       "1Y": {
@@ -685,7 +685,7 @@
           "2026-09-28",
           "2026-10-05",
           "2026-10-12",
-          "2026-10-15"
+          "2026-10-16"
         ],
         "data": [
           57.54,
@@ -740,8 +740,8 @@
           92.41,
           91.11,
           91.85,
-          95.09,
-          96.55
+          97.97,
+          98.65
         ]
       },
       "5Y": {
@@ -798,7 +798,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-10-15"
+          "2026-10-16"
         ],
         "data": [
           66.18,
@@ -852,20 +852,25 @@
           84.67,
           85.76,
           90.42,
-          95.09,
-          96.55
+          97.97,
+          98.67
         ]
       }
     }
   },
   "fixed_income": {
-    "y2": 4.79,
-    "y10": 5.21,
-    "y30": 5.56,
+    "y2": 4.82,
+    "y10": 5.19,
+    "y30": 5.52,
     "fedfunds": 3.75,
     "cpi": 336.298
   },
   "heat_topics": [
+    {
+      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
+      "source": "Federal Reserve"
+    },
     {
       "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
@@ -909,11 +914,6 @@
     {
       "title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
       "source": "Federal Reserve"
     }
   ],
