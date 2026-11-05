@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T20:13:13.094840+00:00",
+  "generated_at": "2026-11-05T20:26:40.771289+00:00",
   "history": {
     "spx": {
       "1M": {
@@ -26,7 +26,8 @@
           "2026-10-30",
           "2026-11-02",
           "2026-11-03",
-          "2026-11-04"
+          "2026-11-04",
+          "2026-11-05"
         ],
         "data": [
           7773.95,
@@ -51,7 +52,8 @@
           7580.07,
           7541.4,
           7568.92,
-          7697.14
+          7688.62,
+          7379.42
         ]
       },
       "1Y": {
@@ -109,7 +111,7 @@
           "2026-10-19",
           "2026-10-26",
           "2026-11-02",
-          "2026-11-04"
+          "2026-11-05"
         ],
         "data": [
           6728.8,
@@ -164,8 +166,8 @@
           7659.44,
           7623.68,
           7580.07,
-          7568.92,
-          7697.14
+          7688.62,
+          7379.42
         ]
       },
       "5Y": {
@@ -230,7 +232,7 @@
           "2026-09-01",
           "2026-10-01",
           "2026-11-01",
-          "2026-11-04"
+          "2026-11-05"
         ],
         "data": [
           4766.18,
@@ -292,8 +294,8 @@
           7686.14,
           7651.54,
           7580.07,
-          7568.92,
-          7697.14
+          7688.62,
+          7379.17
         ]
       }
     },
@@ -322,7 +324,8 @@
           "2026-10-30",
           "2026-11-02",
           "2026-11-03",
-          "2026-11-04"
+          "2026-11-04",
+          "2026-11-05"
         ],
         "data": [
           4156.8,
@@ -347,7 +350,8 @@
           3898.9,
           3969.6,
           3940.4,
-          4074.3
+          4073.0,
+          4115.0
         ]
       },
       "1Y": {
@@ -405,7 +409,7 @@
           "2026-10-19",
           "2026-10-26",
           "2026-11-02",
-          "2026-11-04"
+          "2026-11-05"
         ],
         "data": [
           4009.8,
@@ -460,8 +464,8 @@
           4181.1,
           4007.9,
           3898.9,
-          3940.4,
-          4074.3
+          4073.0,
+          4115.0
         ]
       },
       "5Y": {
@@ -517,7 +521,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-11-04"
+          "2026-11-05"
         ],
         "data": [
           1828.6,
@@ -571,7 +575,7 @@
           4481.5,
           4186.7,
           3898.9,
-          4074.3
+          4115.0
         ]
       }
     },
@@ -600,7 +604,8 @@
           "2026-10-30",
           "2026-11-02",
           "2026-11-03",
-          "2026-11-04"
+          "2026-11-04",
+          "2026-11-05"
         ],
         "data": [
           89.43,
@@ -625,7 +630,8 @@
           104.12,
           96.46,
           96.09,
-          88.55
+          88.12,
+          90.84
         ]
       },
       "1Y": {
@@ -683,7 +689,7 @@
           "2026-10-19",
           "2026-10-26",
           "2026-11-02",
-          "2026-11-04"
+          "2026-11-05"
         ],
         "data": [
           59.75,
@@ -738,8 +744,8 @@
           101.41,
           103.27,
           104.12,
-          96.09,
-          88.55
+          88.12,
+          90.84
         ]
       },
       "5Y": {
@@ -795,7 +801,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-11-04"
+          "2026-11-05"
         ],
         "data": [
           75.21,
@@ -849,19 +855,24 @@
           85.76,
           90.42,
           104.12,
-          88.55
+          90.84
         ]
       }
     }
   },
   "fixed_income": {
-    "y2": 4.59,
-    "y10": 4.91,
-    "y30": 5.28,
+    "y2": 4.61,
+    "y10": 4.95,
+    "y30": 5.32,
     "fedfunds": 3.88,
     "cpi": 336.298
   },
   "heat_topics": [
+    {
+      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
+      "source": "Federal Reserve"
+    },
     {
       "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
@@ -905,11 +916,6 @@
     {
       "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
       "source": "Federal Reserve"
     }
   ],
