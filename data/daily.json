@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T21:28:33.366177+00:00",
+  "generated_at": "2026-11-18T21:03:22.898640+00:00",
   "history": {
     "spx": {
       "1M": {
@@ -25,7 +25,8 @@
           "2026-11-12",
           "2026-11-13",
           "2026-11-16",
-          "2026-11-17"
+          "2026-11-17",
+          "2026-11-18"
         ],
         "data": [
           7690.73,
@@ -49,7 +50,8 @@
           7592.4,
           7561.67,
           7416.59,
-          7340.53
+          7340.53,
+          7323.63
         ]
       },
       "1Y": {
@@ -107,7 +109,7 @@
           "2026-11-02",
           "2026-11-09",
           "2026-11-16",
-          "2026-11-17"
+          "2026-11-18"
         ],
         "data": [
           6602.99,
@@ -162,8 +164,8 @@
           7580.07,
           7376.86,
           7561.67,
-          7416.59,
-          7340.53
+          7340.53,
+          7323.63
         ]
       },
       "5Y": {
@@ -228,7 +230,7 @@
           "2026-09-01",
           "2026-10-01",
           "2026-11-01",
-          "2026-11-17"
+          "2026-11-18"
         ],
         "data": [
           4766.18,
@@ -290,8 +292,8 @@
           7686.14,
           7651.54,
           7580.07,
-          7416.59,
-          7340.53
+          7340.53,
+          7323.63
         ]
       }
     },
@@ -319,7 +321,8 @@
           "2026-11-12",
           "2026-11-13",
           "2026-11-16",
-          "2026-11-17"
+          "2026-11-17",
+          "2026-11-18"
         ],
         "data": [
           4160.1,
@@ -343,7 +346,8 @@
           3885.3,
           3886.3,
           3853.0,
-          3852.3
+          3864.2,
+          3732.5
         ]
       },
       "1Y": {
@@ -401,7 +405,7 @@
           "2026-11-02",
           "2026-11-09",
           "2026-11-16",
-          "2026-11-17"
+          "2026-11-18"
         ],
         "data": [
           4079.5,
@@ -456,8 +460,8 @@
           3898.9,
           4074.9,
           3886.3,
-          3853.0,
-          3852.3
+          3864.2,
+          3732.3
         ]
       },
       "5Y": {
@@ -513,7 +517,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-11-17"
+          "2026-11-18"
         ],
         "data": [
           1828.6,
@@ -567,7 +571,7 @@
           4481.5,
           4186.7,
           3898.9,
-          3852.3
+          3732.3
         ]
       }
     },
@@ -595,7 +599,8 @@
           "2026-11-12",
           "2026-11-13",
           "2026-11-16",
-          "2026-11-17"
+          "2026-11-17",
+          "2026-11-18"
         ],
         "data": [
           103.66,
@@ -619,7 +624,8 @@
           88.74,
           88.56,
           85.72,
-          85.65
+          86.01,
+          82.02
         ]
       },
       "1Y": {
@@ -677,7 +683,7 @@
           "2026-11-02",
           "2026-11-09",
           "2026-11-16",
-          "2026-11-17"
+          "2026-11-18"
         ],
         "data": [
           58.06,
@@ -732,8 +738,8 @@
           104.12,
           90.83,
           88.56,
-          85.72,
-          85.65
+          86.01,
+          82.02
         ]
       },
       "5Y": {
@@ -789,7 +795,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-11-17"
+          "2026-11-18"
         ],
         "data": [
           75.21,
@@ -843,7 +849,7 @@
           85.76,
           90.42,
           104.12,
-          85.65
+          82.02
         ]
       }
     }
@@ -856,6 +862,11 @@
     "cpi": 337.476
   },
   "heat_topics": [
+    {
+      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "source": "Federal Reserve"
+    },
     {
       "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
@@ -899,11 +910,6 @@
     {
       "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
       "source": "Federal Reserve"
     }
   ],
