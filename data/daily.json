@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:52:33.774937+00:00",
+  "generated_at": "2026-11-25T22:05:48.353281+00:00",
   "history": {
     "spx": {
       "1M": {
@@ -25,7 +25,8 @@
           "2026-11-19",
           "2026-11-20",
           "2026-11-23",
-          "2026-11-24"
+          "2026-11-24",
+          "2026-11-25"
         ],
         "data": [
           7676.77,
@@ -49,7 +50,8 @@
           7175.83,
           6910.39,
           7237.17,
-          7201.09
+          7201.09,
+          7182.78
         ]
       },
       "1Y": {
@@ -107,7 +109,7 @@
           "2026-11-09",
           "2026-11-16",
           "2026-11-23",
-          "2026-11-24"
+          "2026-11-25"
         ],
         "data": [
           6849.09,
@@ -162,8 +164,8 @@
           7376.86,
           7561.67,
           6910.39,
-          7237.17,
-          7201.09
+          7201.09,
+          7182.78
         ]
       },
       "5Y": {
@@ -228,7 +230,7 @@
           "2026-09-01",
           "2026-10-01",
           "2026-11-01",
-          "2026-11-24"
+          "2026-11-25"
         ],
         "data": [
           4766.18,
@@ -290,8 +292,8 @@
           7686.14,
           7651.54,
           7580.07,
-          6910.39,
-          7201.09
+          7201.09,
+          7182.78
         ]
       }
     },
@@ -319,7 +321,8 @@
           "2026-11-19",
           "2026-11-20",
           "2026-11-23",
-          "2026-11-24"
+          "2026-11-24",
+          "2026-11-25"
         ],
         "data": [
           4038.4,
@@ -343,7 +346,8 @@
           3685.5,
           3515.4,
           3651.4,
-          3555.1
+          3561.9,
+          3613.5
         ]
       },
       "1Y": {
@@ -401,7 +405,7 @@
           "2026-11-09",
           "2026-11-16",
           "2026-11-23",
-          "2026-11-24"
+          "2026-11-25"
         ],
         "data": [
           4254.9,
@@ -456,8 +460,8 @@
           4074.9,
           3886.3,
           3515.4,
-          3651.4,
-          3555.1
+          3561.9,
+          3613.5
         ]
       },
       "5Y": {
@@ -513,7 +517,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-11-24"
+          "2026-11-25"
         ],
         "data": [
           1828.6,
@@ -567,7 +571,7 @@
           4481.5,
           4186.7,
           3898.9,
-          3555.1
+          3613.5
         ]
       }
     },
@@ -595,7 +599,8 @@
           "2026-11-19",
           "2026-11-20",
           "2026-11-23",
-          "2026-11-24"
+          "2026-11-24",
+          "2026-11-25"
         ],
         "data": [
           101.76,
@@ -619,7 +624,8 @@
           83.21,
           83.98,
           80.17,
-          81.69
+          82.05,
+          84.11
         ]
       },
       "1Y": {
@@ -677,7 +683,7 @@
           "2026-11-09",
           "2026-11-16",
           "2026-11-23",
-          "2026-11-24"
+          "2026-11-25"
         ],
         "data": [
           58.55,
@@ -732,8 +738,8 @@
           90.83,
           88.56,
           83.98,
-          80.17,
-          81.69
+          82.05,
+          84.11
         ]
       },
       "5Y": {
@@ -789,7 +795,7 @@
           "2026-08-01",
           "2026-09-01",
           "2026-10-01",
-          "2026-11-24"
+          "2026-11-25"
         ],
         "data": [
           75.21,
@@ -843,19 +849,29 @@
           85.76,
           90.42,
           104.12,
-          81.69
+          84.11
         ]
       }
     }
   },
   "fixed_income": {
     "y2": 4.63,
-    "y10": 4.92,
-    "y30": 5.29,
+    "y10": 4.91,
+    "y30": 5.3,
     "fedfunds": 3.88,
     "cpi": 337.476
   },
   "heat_topics": [
+    {
+      "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
+      "source": "Federal Reserve"
+    },
+    {
+      "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm",
+      "source": "Federal Reserve"
+    },
     {
       "title": "Federal Reserve announces College Fed Challenge winners",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
@@ -894,16 +910,6 @@
     {
       "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-      "source": "Federal Reserve"
-    },
-    {
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
       "source": "Federal Reserve"
     }
   ],
